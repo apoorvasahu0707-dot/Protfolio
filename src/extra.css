@@ -1,0 +1,19 @@
+/* Only additions on top of the copied theme: photo placeholder + project link row */
+.profile .profile-ph {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+  background: linear-gradient(145deg, #101c17, #0b1511);
+  color: #00c896;
+  font-size: 90px;
+  font-weight: 700;
+  letter-spacing: 4px;
+}
+
+/* keep the face in frame inside the tall photo box */
+.profile img {
+  object-position: center 15%;
+}

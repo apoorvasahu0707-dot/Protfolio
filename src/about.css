@@ -1,0 +1,129 @@
+
+.about {
+  padding: 100px;
+  background: #0b0f0d;
+  color: white;
+}
+
+.about-container {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  gap: 80px;
+  align-items: center;
+}
+
+
+.about-left {
+  width: 50%;
+}
+
+.about-title {
+  color: #00c896;
+  font-size: 12px;
+  letter-spacing: 2px;
+}
+
+.about-left h2 {
+  font-size: 45px;
+  line-height: 1.2;
+  margin: 15px 0 25px;
+}
+
+.about-left h2 b {
+  color: #00c896;
+}
+
+.about-left p {
+  color: #b8c2be;
+  line-height: 1.8;
+  font-size: 15px;
+  margin-bottom: 18px;
+}
+
+.about-btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 12px 22px;
+  background: #00c896;
+  color: #0b0f0d;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: 500;
+}
+
+.about-btn:hover {
+  background: transparent;
+  color: white;
+  border: 1px solid #00c896;
+}
+
+
+
+.about-right {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.about-card {
+  padding: 25px;
+  background: #151a17;
+  border: 1px solid #29332f;
+  border-radius: 12px;
+  transition: 0.3s;
+}
+
+.about-card:hover {
+  border-color: #00c896;
+  transform: translateX(8px);
+}
+
+.about-card span {
+  color: #00c896;
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+
+.about-card h3 {
+  margin: 10px 0;
+  font-size: 21px;
+}
+
+.about-card p {
+  color: #b8c2be;
+  font-size: 14px;
+  line-height: 1.6;
+  margin: 0;
+}
+
+
+@media (max-width: 800px) {
+  .about {
+    padding: 70px 20px;
+  }
+
+  .about-container {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .about-left,
+  .about-right {
+    width: 100%;
+  }
+
+  .about-left h2 {
+    font-size: 35px;
+  }
+
+  .about-left {
+    text-align: center;
+  }
+
+  .about-right {
+    text-align: left;
+  }
+}
+
