@@ -22,7 +22,7 @@ export const person = {
 
 export const aboutText = [
   "I\u2019m Apoorva Sahu, a Full Stack Developer from Renukoot, India. I recently completed my B.Tech in Computer Science and I enjoy building responsive web apps with React.js, Tailwind CSS and RESTful APIs, with a focus on clean code and performance.",
-  "Right now I am a Full Stack Developer Intern at Vats Mobility, building end-to-end features for Vats Insight and Vats Connect using the MERN stack.",
+  "I recently completed a Full Stack Developer internship at Vats Mobility, where I built end-to-end features for Vats Insight and Vats Connect using the MERN stack.",
 ];
 
 export const aboutCards = [
@@ -140,10 +140,10 @@ export const projects = [
 
 export const experience = [
   {
-    period: "Jul 2026 - Present",
+    period: "Jul 2026 - Oct 2026",
     role: "Full Stack Developer Intern",
     org: "Vats Mobility \u00b7 Remote",
-    text: "Building end-to-end features for Vats Insight and Vats Connect using the MERN stack, working directly with the founder and engineering team.",
+    text: "Built end-to-end features for Vats Insight and Vats Connect using the MERN stack, working directly with the founder and engineering team.",
   },
   {
     period: "Oct 2025",
